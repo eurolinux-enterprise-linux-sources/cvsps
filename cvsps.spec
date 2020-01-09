@@ -2,7 +2,7 @@
 
 Name:           cvsps
 Version:        2.2
-Release:        0.12.%{prever}%{?dist}
+Release:        0.14.%{prever}%{?dist}
 Summary:        Patchset tool for CVS
 
 Group:          Development/Tools
@@ -52,6 +52,12 @@ make install prefix=$RPM_BUILD_ROOT%{_prefix}
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.2-0.14.b1
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2-0.13.b1
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.2-0.12.b1
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
